@@ -1,4 +1,3 @@
-<!-- snippet_templates.xml -->
 <odoo>
   <template id="snippet_leaflet_mapa" inherit_id="website.snippets" name="Leaflet Mapa Snippet">
     <xpath expr="//div[@id='snippet_structure']" position="inside">

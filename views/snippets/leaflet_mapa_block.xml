@@ -2,7 +2,7 @@
 <odoo>
   <template id="leaflet_mapa_block" name="Leaflet Mapa Block" inherit_id="website.snippets" active="True">
     <xpath expr="//div[@id='snippet_structure']" position="inside">
-      <t t-snippet="leaflet_mapa_block" t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
+      <t t-snippet="web_leaflet_mapa_regiones.leaflet_mapa_block" t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
     </xpath>
   </template>
 
