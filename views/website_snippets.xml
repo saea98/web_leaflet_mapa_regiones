@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Definición del bloque del snippet -->
+    <template id="leaflet_mapa_block" name="Mapa Leaflet">
+        <section class="s_leaflet_mapa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="map" style="height: 400px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Registro del snippet en el panel del editor web -->
+    <template id="web_leaflet_snippets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="web_leaflet_mapa_regiones.leaflet_mapa_block" 
+               t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
+        </xpath>
+    </template>
+</odoo>

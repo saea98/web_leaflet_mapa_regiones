@@ -1,7 +1,0 @@
-<odoo>
-  <template id="leaflet_mapa_block" name="Mapa Leaflet">
-    <section class="s_map_leaflet py-5" data-snippet="leaflet_mapa_block" data-name="Mapa Leaflet">
-      <div id="leaflet_map" style="height: 500px;"></div>
-    </section>
-  </template>
-</odoo>

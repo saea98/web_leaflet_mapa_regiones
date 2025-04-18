@@ -9,9 +9,9 @@
         'security/ir.model.access.csv',
         'views/region_views.xml',
         'views/snippets/leaflet_mapa_block.xml',
-        #'views/mapa_snippet.xml',
         'views/snippet_templates.xml',
-        'views/snippets.xml',
+        'views/website_snippets.xml',
+        'views/assets.xml',
     ],
     'assets': {
         'web.assets_frontend': [
@@ -20,6 +20,7 @@
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
             "web_leaflet_mapa_regiones/static/src/js/leaflet_init.js",
+            "web_leaflet_mapa_regiones/static/src/js/snippets.js",
         ],
     },
     'installable': True,
