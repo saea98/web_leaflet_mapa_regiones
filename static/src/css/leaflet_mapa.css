@@ -1,0 +1,6 @@
+/* Asegura que el mapa se renderice correctamente */
+#map {
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
