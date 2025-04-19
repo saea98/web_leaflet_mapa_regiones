@@ -1,8 +1,6 @@
-.leaflet-mapa-section {
-    margin: 2rem 0;
-}
-
 #leaflet_map {
     width: 100%;
     height: 500px;
-}
+    border: 2px solid #ccc;
+  }
+  

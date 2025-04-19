@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <template id="assets_frontend" name="Leaflet Assets" inherit_id="website.assets_frontend">
+  <template id="assets_frontend" inherit_id="website.assets_frontend" name="Leaflet Assets">
     <xpath expr="." position="inside">
-      <!-- Leaflet CSS & JS -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-      <script type="text/javascript" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-      <!-- Custom CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="/web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css"/>
-      <script type="text/javascript" src="/web_leaflet_mapa_regiones/static/src/js/leaflet_mapa.js"/>
+      <link rel="stylesheet" href="/web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css"/>
+      <script src="/web_leaflet_mapa_regiones/static/src/js/leaflet_mapa.js"/>
     </xpath>
   </template>
 </odoo>
