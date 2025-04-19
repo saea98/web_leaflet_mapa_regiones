@@ -81,7 +81,7 @@ odoo.define('web_leaflet_mapa_regiones.snippets_editor', function (require) {
          */
         _onLeavingEditMode: function () {
             this._super.apply(this, arguments);
-            this.trigger_up('reload_snippet_dropzones');
+            //this.trigger_up('reload_snippet_dropzones');
         },
     });
 });
