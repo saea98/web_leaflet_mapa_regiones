@@ -14,7 +14,6 @@
         'views/region_views.xml',
         'views/snippets/leaflet_mapa_block.xml',
         'views/website_snippets.xml',
-        'views/snippet_templates.xml',
         
     ],
     'assets': {
