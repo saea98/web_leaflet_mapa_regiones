@@ -11,7 +11,7 @@
         'security/ir.model.access.csv',
         'views/region_views.xml',
         'views/snippets/leaflet_mapa_block.xml',
-        'views/snippet_templates.xml',
+        #'views/snippet_templates.xml',
         'views/website_snippets.xml',
     ],
     'assets': {
