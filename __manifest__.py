@@ -20,10 +20,10 @@
     'assets': {
         'web.assets_frontend': [
             #'web_leaflet_mapa_regiones/static/src/js/leaflet_mapa.js',
-            '/web_leaflet_mapa_regiones/static/src/js/snippets.js',
-            'web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
+            '/web_leaflet_mapa_regiones/static/src/js/snippets.js',
+            'web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css',
             #"web_leaflet_mapa_regiones/static/src/js/leaflet_init.js",
         ],
         'web_editor.assets_wysiwyg': [
