@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <template id="leaflet_mapa_block" name="Leaflet Mapa Block" inherit_id="website.snippets" active="True">
+
+  <template id="snippet_leaflet_mapa" inherit_id="website.snippets" name="Leaflet Mapa Snippet">
     <xpath expr="//div[@id='snippet_structure']" position="inside">
       <t t-snippet="web_leaflet_mapa_regiones.leaflet_mapa_block" t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
     </xpath>
   </template>
-
+  
   <template id="leaflet_mapa_block_content">
     <section class="leaflet-mapa-section" data-snippet="leaflet_mapa_block">
       <div id="leaflet_map" style="height: 500px;"></div>
