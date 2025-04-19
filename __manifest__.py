@@ -10,9 +10,10 @@
     'data': [
         'security/ir.model.access.csv',
         #'views/page_home_inherit.xml',
-        #'views/leaflet_mapa_standalone.xml',
+        #'views/assets.xml',
+        'views/leaflet_mapa_standalone.xml',
         'views/region_views.xml',
-        #'views/snippets/leaflet_mapa_block.xml',
+        'views/snippets/leaflet_mapa_block.xml',
         'views/website_snippets.xml',
         
     ],

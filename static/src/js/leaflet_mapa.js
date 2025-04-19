@@ -2,7 +2,7 @@ odoo.define('web_leaflet_mapa_regiones.leaflet_mapa', function (require) {
     'use strict';
   
     const publicWidget = require('web.public.widget');
-/*  
+ 
     publicWidget.registry.LeafletMap = publicWidget.Widget.extend({
       selector: '.s_map_leaflet',
       start: function () {
@@ -18,7 +18,7 @@ odoo.define('web_leaflet_mapa_regiones.leaflet_mapa', function (require) {
         }).addTo(map);
       },
     });
-  */
+  
     return publicWidget.registry.LeafletMap;
   });
   
