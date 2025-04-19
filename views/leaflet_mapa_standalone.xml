@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="leaflet_mapa_block_content" name="Leaflet Mapa Standalone Template">
+    <section class="leaflet-mapa-section">
+      <div id="leaflet_map" style="height: 500px;"></div>
+    </section>
+  </template>
+</odoo>

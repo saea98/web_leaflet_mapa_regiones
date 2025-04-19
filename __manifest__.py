@@ -9,10 +9,12 @@
     'depends': ['website'],
     'data': [
         'security/ir.model.access.csv',
+        'views/page_home_inherit.xml',
+        'views/leaflet_mapa_standalone.xml',
         'views/region_views.xml',
         'views/snippets/leaflet_mapa_block.xml',
         'views/website_snippets.xml',
-        #'views/snippet_templates.xml',
+        'views/snippet_templates.xml',
         
     ],
     'assets': {

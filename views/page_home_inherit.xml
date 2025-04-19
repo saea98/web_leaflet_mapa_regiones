@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="page_home_leaflet" inherit_id="website.homepage" name="Home Page with Leaflet">
+    <xpath expr="//div[@id='wrap']" position="inside">
+      <section class="leaflet-mapa-section">
+        <div id="leaflet_map" style="height: 500px;"></div>
+      </section>
+    </xpath>
+  </template>
+</odoo>
