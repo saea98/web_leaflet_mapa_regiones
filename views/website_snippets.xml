@@ -24,10 +24,10 @@
 
     <!-- Registro en el editor -->
     <template id="snippets" inherit_id="website.snippets" name="Leaflet Mapa Snippet">
-        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-            <t t-snippet="web_leaflet_mapa_regiones.s_leaflet_mapa"
-               t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
-        </xpath>
+    <xpath expr="//div[@id='snippet_structure']" position="inside">
+        <t t-snippet="web_leaflet_mapa_regiones.s_leaflet_mapa"
+        t-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.svg"/>
+    </xpath>
     </template>
 
     <!-- Opciones del snippet (mantenerlo simple por ahora) -->

@@ -30,6 +30,7 @@ odoo.define('web_leaflet_mapa_regiones.snippets_editor', function (require) {
          * @private
          */
         _initMap: function () {
+            /*
             var mapElement = this.el.querySelector('#map');
             if (!mapElement) return;
             
@@ -57,6 +58,7 @@ odoo.define('web_leaflet_mapa_regiones.snippets_editor', function (require) {
                 console.error('Error al inicializar el mapa:', e);
                 mapElement.innerHTML = '<div class="alert alert-danger">Error al inicializar el mapa</div>';
             }
+            */
         },
     });
     

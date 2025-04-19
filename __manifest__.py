@@ -9,10 +9,10 @@
     'depends': ['website'],
     'data': [
         'security/ir.model.access.csv',
-        'views/page_home_inherit.xml',
-        'views/leaflet_mapa_standalone.xml',
+        #'views/page_home_inherit.xml',
+        #'views/leaflet_mapa_standalone.xml',
         'views/region_views.xml',
-        'views/snippets/leaflet_mapa_block.xml',
+        #'views/snippets/leaflet_mapa_block.xml',
         'views/website_snippets.xml',
         
     ],
@@ -22,7 +22,7 @@
             'web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
-            #"web_leaflet_mapa_regiones/static/src/js/leaflet_init.js",
+            "web_leaflet_mapa_regiones/static/src/js/leaflet_init.js",
         ],
         'web_editor.assets_wysiwyg': [
             # El JS de snippets para el editor

@@ -1,7 +1,7 @@
 <odoo>
   <template id="leaflet_mapa_block">
     <section class="s_map_leaflet">
-      <div id="leaflet_map" style="height:500px;"></div>
+      <div id="leaflet_map" style="height:200px;"></div>
     </section>
   </template>
 
