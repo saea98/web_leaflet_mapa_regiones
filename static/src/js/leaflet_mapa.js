@@ -1,23 +1,24 @@
-/** @odoo-module **/
+odoo.define('web_leaflet_mapa_regiones.leaflet_map', function (require) {
+    'use strict';
 
-import publicWidget from 'web.public.widget';
+    const publicWidget = require('web.public.widget');
 
-publicWidget.registry.leafletMapa = publicWidget.Widget.extend({
-    selector: '.leaflet-map',
+    publicWidget.registry.LeafletMap = publicWidget.Widget.extend({
+        selector: '.leaflet-mapa-section',
+        start: function () {
+            if (typeof L === 'undefined') {
+                console.warn("Leaflet.js not loaded.");
+                return;
+            }
 
-    start() {
-        if (typeof L === 'undefined') {
-            console.error('Leaflet no está definido.');
-            return;
-        }
-    
-        const map = L.map(this.el).setView([44.8378, -0.5792], 5);
-    
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-    
-        return this._super(...arguments);
-    }
-    
+            const map = L.map('leaflet_map').setView([40.4168, -3.7038], 5); // Ejemplo: Madrid
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            return this._super.apply(this, arguments);
+        },
+    });
 });

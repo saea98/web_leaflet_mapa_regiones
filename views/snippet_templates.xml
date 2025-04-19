@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <!-- Esto lo agrega a la sección de bloques "Estructura" del Website Builder -->
   <template id="snippet_leaflet_mapa" name="Leaflet Mapa Snippet" inherit_id="website.snippets">
     <xpath expr="//div[@id='snippet_structure']" position="inside">
       <t t-snippet="web_leaflet_mapa_regiones.leaflet_mapa_block_content"

@@ -1,6 +1,8 @@
-/* Asegura que el mapa se renderice correctamente */
-#map {
+.leaflet-mapa-section {
+    margin: 2rem 0;
+}
+
+#leaflet_map {
     width: 100%;
     height: 500px;
-    z-index: 0;
 }
