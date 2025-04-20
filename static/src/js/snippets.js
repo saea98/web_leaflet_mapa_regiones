@@ -12,7 +12,12 @@ odoo.define('web_leaflet_mapa_regiones.snippets_editor', function (require) {
          * @override
          */
         start: function () {
-            return this._super.apply(this, arguments).then(this._initMap.bind(this));
+            const isInEditorPanel = this.el.closest('.o_web_editor_snippets'); // evita cargar en el panel de snippets
+            if (!isInEditorPanel) {
+                return this._super.apply(this, arguments).then(this._initMap.bind(this));
+            } else {
+                return this._super.apply(this, arguments); // no inicializa el mapa
+            }
         },
 
         /**
@@ -47,6 +52,7 @@ odoo.define('web_leaflet_mapa_regiones.snippets_editor', function (require) {
                 console.error('Error al inicializar el mapa:', e);
                 mapElement.innerHTML = '<div class="alert alert-danger">Error al inicializar el mapa</div>';
             }
+            mapElement.classList.remove('d-none');
         },
     });
 

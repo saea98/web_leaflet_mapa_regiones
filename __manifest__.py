@@ -6,12 +6,13 @@
     'author':'Salvador Jiménez Sánchez',
     'website': 'https://github.com/saea98/web_leaflet_mapa_regiones',
     'category': 'Website',
-    'depends': ['website'],
+    'images': ['static/description/thumb.png'],
+    'depends': ['website', 'web_editor'],
     'data': [
         'security/ir.model.access.csv',
         #'views/page_home_inherit.xml',
         #'views/assets.xml',
-        'views/leaflet_mapa_standalone.xml',
+        #'views/leaflet_mapa_standalone.xml',
         'views/region_views.xml',
         #'views/snippets/leaflet_mapa_block.xml',
         'views/website_snippets.xml',
@@ -19,11 +20,12 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            #'web_leaflet_mapa_regiones/static/src/js/leaflet_mapa.js',
+            'web_leaflet_mapa_regiones/static/src/js/leaflet_mapa.js',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
             'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
             '/web_leaflet_mapa_regiones/static/src/js/snippets.js',
             'web_leaflet_mapa_regiones/static/src/css/leaflet_mapa.css',
+            #'web_leaflet_mapa_regiones/static/description/thumb.svg',
             #"web_leaflet_mapa_regiones/static/src/js/leaflet_init.js",
         ],
         'web_editor.assets_wysiwyg': [

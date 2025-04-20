@@ -1,8 +1,0 @@
-<odoo>
-  <template id="snippet_leaflet_mapa" inherit_id="website.snippets" name="Leaflet Mapa Snippet">
-    <xpath expr="//div[@id='snippet_structure']" position="inside">
-      <t t-snippet="web_leaflet_mapa_regiones.leaflet_mapa_block"
-         t-thumbnail="/website/static/src/img/snippets_thumbs/snippet_structure.svg"/>
-    </xpath>
-  </template>
-</odoo>

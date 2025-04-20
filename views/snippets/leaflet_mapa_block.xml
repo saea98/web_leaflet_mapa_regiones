@@ -4,5 +4,4 @@
       <div id="leaflet_map" style="height:200px;"></div>
     </section>
   </template>
-
 </odoo>
