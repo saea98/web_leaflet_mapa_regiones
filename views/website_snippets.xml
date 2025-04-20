@@ -6,9 +6,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3 class="text-center" style="color:#ffffff;">Mapa Interactivo</h3>
-                        <div id="map" class="d-none" style="height: 300px; background-color: #f8f9fa; border: 1px solid #dee2e6;">
-                        <img src="http://localhost:8069/web_leaflet_mapa_regiones/static/description/thumb.png" alter="no se cargo la imagen" style="width: 100%; height: auto;"/>
+                        <h3 class="text-center" style="color:#ffffff;">Regiones Vino</h3>
+                        <div id="map"  style="height: 300px; background-color: #f8f9fa; border: 1px solid #dee2e6;">
                         </div>
                     </div>
                 </div>
@@ -22,14 +21,14 @@
         <xpath expr="//div[@id='snippet_structure']" position="inside">
             <div name="Mapa Leaflet"
                  data-oe-type="snippet"
-                 data-oe-thumbnail="/web/web_leaflet_mapa_regiones/static/description/thumb.png"
+                 data-oe-thumbnail="/web_leaflet_mapa_regiones/static/description/thumb.png"
                  data-oe-keywords="mapa, leaflet, regiones">
                 <div class="oe_snippet_thumbnail">
                     <div class="oe_snippet_thumbnail_img"
-                         style="background-image: url(/web/web_leaflet_mapa_regiones/static/description/thumb.png);">
-                         <img src="http://localhost:8069/web_leaflet_mapa_regiones/static/description/thumb.png" alter="no se cargo la imagen" style="width: 100%; height: auto;"/>
+                         style="background-image: url(http://localhost:8069/web_leaflet_mapa_regiones/static/description/thumb.png);">
+                         <img src="http://localhost:8069/web_leaflet_mapa_regiones/static/description/thumb.png" alter="no se cargo la imagen" style="width: 100%; height: auto;"/>-
                     </div>
-                    <span class="oe_snippet_thumbnail_title">Mapa Leaflet</span>
+                    <span class="oe_snippet_thumbnail_title">Mapa Regiones</span>
                 </div>
                 <t t-snippet="web_leaflet_mapa_regiones.s_leaflet_mapa"/>
             </div>
